@@ -27,6 +27,6 @@ class SpiderMain(object):
             self.outputer.output_html()
 
 if __name__ == "__main__":
-    root_url = "http://www.667ya.com/piclist3/314523.html"
+    root_url = "XXXXXX(地址保密)/piclist3/314523.html"
     obj_spider = SpiderMain()
     obj_spider.craw(root_url)
